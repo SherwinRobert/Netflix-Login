@@ -1,0 +1,128 @@
+body{
+    margin:0;
+}
+
+img{
+    width: 170px;
+    position:absolute;
+    top: 3%;
+    left: 3%;
+}
+
+h1{
+    color: white;
+    font-size: 1.7rem;
+}
+a{
+    text-decoration: none;
+    font-family:"Helvetica Neue", sans-serif;
+    color: #757575;
+}
+
+h4{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #757575;
+}
+
+label{
+    padding-right: 45%;
+    color: #757575;
+    font-size: 0.7rem;
+}
+
+p{
+    font-size: 0.7rem;
+    margin: 0;
+    color: #757575;
+}
+.bg{
+    background-image: url("NetflixBg.jpg");
+}
+
+.sign-in{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    top: 12%;
+    background-color: rgba(0, 0,0, 0.8);
+    margin:auto;
+    width:450px;
+    height: 700px;
+    border-radius: 5px;
+    padding: 35px 40 0 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom{
+    font-family:"Helvetica Neue", sans-serif;
+    color: #757575;
+    font-size: 0.75rem;
+    background-color: rgba(0, 0,0, 0.8);
+    box-sizing: border-box;
+    position: relative;
+    top: 20%;
+    width: 100%;
+    padding: 50px 15%;
+    height: 250px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    width: 200px;
+    height: 15px;
+    margin: 10px;
+}
+
+a#a-tag{
+    position: absolute;
+    padding-top:1%;
+    right: 8%;
+}
+
+.bg a{
+    font-size: 0.7rem;
+}
+/* Components */
+
+.btn{
+    border:0;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: white;
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom:10px ;
+}
+
+@media(max-width:740px){
+    .sign-in{
+        width: 100%;
+        background-color: black;
+        height: 500px;
+    }
+
+    .bottom{
+        background-color: black;
+        top: 12%;
+        border-top: 1px solid white;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .bg{
+        background-image: none;
+        background-color: black;
+
+    }
+}
